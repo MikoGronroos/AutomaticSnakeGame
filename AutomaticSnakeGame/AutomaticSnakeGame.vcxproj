@@ -137,10 +137,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AutomaticSnakeGame.cpp" />
+    <ClCompile Include="src\AutomaticSnakeGame.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AutomaticSnakeGame.h" />
+    <ClInclude Include="src\AutomaticSnakeGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

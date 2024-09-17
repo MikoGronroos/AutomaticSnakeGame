@@ -66,7 +66,7 @@ int main()
     std::cout << "Game ended" << std::endl;
 }
 
-void update() 
+void update()
 {
     if (checkIfPlayerGetsPoint()) {
         clearBoard();
@@ -130,7 +130,7 @@ void render()
 }
 
 
-char determineNodeCharacter(int x, int y) 
+char determineNodeCharacter(int x, int y)
 {
     for (int i = 0; i < playerBodyParts.size(); i++)
     {
@@ -150,7 +150,7 @@ char determineNodeCharacter(int x, int y)
     return ' ';
 }
 
-bool checkIfPlayerGetsPoint() 
+bool checkIfPlayerGetsPoint()
 {
     return playerBodyParts[0].x == appleXPos && playerBodyParts[0].y == appleYPos;
 }
