@@ -16,11 +16,6 @@ public:
     bool isBlocked = false;
 };
 
-struct MapNode {
-    int x;
-    int y;
-};
-
 class Map {
 public:
     Map(int width, int height) {
